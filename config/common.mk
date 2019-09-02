@@ -176,6 +176,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     rsync
 
+# Skip boot JAR checks.
+SKIP_BOOT_JARS_CHECK := true
+
 # These packages are excluded from user builds
 PRODUCT_PACKAGES_DEBUG += \
     procmem
