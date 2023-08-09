@@ -116,10 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/hertzify/prebuilt/common/etc/init/init.hertzify-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.hertzify-updater.rc
 endif
 
-# Config
-PRODUCT_PACKAGES += \
-    SimpleDeviceConfig 
-
 # Disable RescueParty due to high risk of data loss
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.disable_rescue=true
