@@ -144,7 +144,12 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 # Disable RescueParty due to high risk of data loss
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.disable_rescue=true
-    
+
+# Disable touch video heatmap to reduce latency, motion jitter, and CPU usage
+# on supported devices with Deep Press input classifier HALs and models
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.input.video_enabled=false
+ 
 # Extra tools
 PRODUCT_PACKAGES += \
     bash \
