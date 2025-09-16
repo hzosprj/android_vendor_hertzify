@@ -1,7 +1,7 @@
-# Inherit mobile full common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_mobile_full.mk)
+# Inherit mobile full common hertzify stuff
+$(call inherit-product, vendor/hertzify/config/common_mobile_full.mk)
 
-# Inherit tablet common Lineage stuff
-$(call inherit-product, vendor/lineage/config/tablet.mk)
+# Inherit tablet common hertzify stuff
+$(call inherit-product, vendor/hertzify/config/tablet.mk)
 
-$(call inherit-product, vendor/lineage/config/wifionly.mk)
+$(call inherit-product, vendor/hertzify/config/wifionly.mk)
