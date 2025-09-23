@@ -5,20 +5,6 @@ prebuilt_etc_xml {
     schema: ":apns-conf-schema",
 }
 
-prebuilt_etc_xml {
-    name: "sensitive_pn.xml",
-    product_specific: true,
-    src: "etc/sensitive_pn.xml",
-    schema: ":spn-schema",
-}
-
-prebuilt_etc_xml {
-    name: "hertzify-component-overrides.xml",
-    product_specific: true,
-    src: "etc/hertzify-component-overrides.xml",
-    sub_dir: "sysconfig",
-}
-
 java_import {
     name: "vendor.aac.hardware.richtap.vibrator",
     jars: ["lib/vendorAacHardwareRichtapVibrator.jar"],
