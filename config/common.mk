@@ -242,7 +242,7 @@ PRODUCT_COPY_FILES += \
 
 # Lineage-specific file
 PRODUCT_COPY_FILES += \
-    vendor/herhertzifytzify/config/permissions/privapp-permissions-lineagehw.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-lineagehw.xml
+    vendor/hertzify/config/permissions/privapp-permissions-lineagehw.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-lineagehw.xml
 
 # rsync
 PRODUCT_PACKAGES += \
