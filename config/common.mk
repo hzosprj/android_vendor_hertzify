@@ -82,10 +82,6 @@ endif
 
 PRODUCT_SYSTEM_PROPERTIES += ro.surface_flinger.supports_background_blur=1
 
-# Hertzify-specific broadcast actions whitelist
-PRODUCT_COPY_FILES += \
-    vendor/hertzify/config/permissions/hertzify-sysconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hertzify-sysconfig.xml
-
 # Hertzify-specific init rc file
 PRODUCT_COPY_FILES += \
     vendor/hertzify/prebuilt/common/etc/init/init.hertzify-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.hertzify-system_ext.rc
