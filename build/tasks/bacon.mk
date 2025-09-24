@@ -16,7 +16,7 @@
 # -----------------------------------------------------------------
 # Hertzify OTA update package
 
-HERTZIFY_TARGET_PACKAGE := $(PRODUCT_OUT)/hertzify-$(HERTZIFY_VERSION).zip
+HERTZIFY_TARGET_PACKAGE := $(PRODUCT_OUT)/HertzifyOS-v$(HERTZIFY_VERSION).zip
 
 SHA256 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/sha256sum
 
